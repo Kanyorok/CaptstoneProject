@@ -48,7 +48,61 @@ body {
   color: rgb(244 94 44);
 }
 
+.header_about h2{
+  font-weight: 400;
+  line-height: 138%;
+  font-size: 1.5em;
+  color: rgb(244 94 44);
+}
+
 .header h1 {
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5em;
+  background: -webkit-linear-gradient(rgb(244 94 44), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 30px;
+}
+
+.sessions_about {
+  position: relative;
+  height: 182.46px;
+  overflow-y: hidden;
+  opacity: rgba(0, 0, 0, 0.7);
+  margin-bottom: 25px;
+}
+
+.sessions_about img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.dates {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dates h3 {
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  color: #000;
+}
+
+.desc_event {
+  color: #000;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 175%;
+}
+
+.header_about h1 {
   font-weight: bold;
   font-family: 'Lato', sans-serif;
   font-size: 2.5em;
@@ -62,6 +116,37 @@ body {
   background-color: #f8f8f8;
   padding: 17.1px 14px 16.9px 14px;
   margin-bottom: 30px;
+}
+
+.descriptor_about {
+  background-color: #fff;
+  padding: 17.1px 14px 16.9px 14px;
+}
+
+.event_details {
+  padding: 30px 41.5px 20.92px 41.5px;
+  background-color: rgb(247, 247, 248);
+}
+
+.extra_info {
+  text-decoration: underline;
+  text-underline-position: under;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 12px;
+  line-height: 208%;
+  letter-spacing: 0.02em;
+  color: #5f5f5f;
+}
+
+.descriptor_about p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 179%;
+  color: #000;
 }
 
 .descriptor p {
@@ -89,7 +174,15 @@ body {
   font-weight: 700;
   font-size: 13px;
   color: #868686;
-  margin-bottom: 69.62px;
+}
+
+.schedule_desc_about {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  color: #7a7a7a;
+  line-height: 208%;  
 }
 
 .middle_part {
@@ -99,6 +192,15 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 30.5px 10px 0 10px;
+}
+
+.middle_part_about {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30.5px 20.5px 0 20.5px;
+  text-align: center;
 }
 
 .sessions {
@@ -165,6 +267,17 @@ body {
   line-height: 140%;
   color: #fff;
   opacity: 100%;
+  margin-bottom: 15px;
+}
+
+.middle_heading_about {
+  font-family: 'Lato',sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  color: #2c2c2c;
+  letter-spacing: -0.02em;
   margin-bottom: 15px;
 }
 
@@ -235,6 +348,69 @@ body {
   margin-bottom: 40px;
 }
 
+.middle_part_about hr {
+  border: 2px solid #a04038;
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.middle_part_about p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 175%;
+  letter-spacing: -0.03em;
+  color: #838383;
+  margin-bottom: 35px;
+}
+
+.partners_second {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.partners_second img {
+  margin-right: 40px;
+}
+
+.speakers_about {
+  padding-left: 9.94px;
+  padding-right: 9.94px;
+}
+
+.partners_first {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  color: #fff;
+}
+
+.footer p {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 131%;
+}
+
+.partners_first img {
+  margin-right: 40px;
+}
+
+.bottom_guides_about {
+  background-color: #414246;
+} 
+
 .bottom_guides button {
   width: 100%;
   padding-top: 12px;
@@ -263,9 +439,28 @@ body {
   padding-right: 18px; 
 }
 
+.main_headline_about {
+  background-image: url("images/phone_back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 9px;
+}
+
+.header_about {
+  text-align: center;
+}
+
 .logo_info {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   color: #ffc600;
+}
+
+.logo_info_footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffc600;
+  margin-right: 29.52px;
 }

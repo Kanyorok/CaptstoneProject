@@ -15,6 +15,14 @@ body {
 }
 
 @media (max-width: 768px) {
+  .middle_part_about {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30.5px 20.5px 0 20.5px;
+    text-align: center;
+  }
+
   .socials {
     display: none;
   }
@@ -245,9 +253,98 @@ body {
     align-items: center;
     order: 1;
   }
+
+  .middle_heading_about {
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 140%;
+    color: #2c2c2c;
+    letter-spacing: -0.02em;
+    margin-bottom: 15px;
+  }
+
+  .middle_part_about p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 175%;
+    letter-spacing: -0.03em;
+    color: #838383;
+    margin-bottom: 35px;
+  }
+
+  .schedule_desc_about {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    color: #7a7a7a;
+    line-height: 208%;  
+  }
+
+  .extra_info {
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 208%;
+    letter-spacing: 0.02em;
+    color: #5f5f5f;
+  }
+
+  .bottom_info_content {
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
+  .middle_part_about {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30.5px 20.5px 0 20.5px;
+    text-align: center;
+  }
+
+  .footer_content_logo p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    color: #fff;
+    line-height: 131%;
+  }
+
+  .footer_content_logo {
+    margin-left: 65px;
+  }
+
+  .bottom_info_content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .middle_part_about p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 131%;
+    letter-spacing: -0.03em;
+    color: #838383;
+    margin-bottom: 35px;
+  }
+
+  .footer_about {
+    display: none;
+  }
+
   .first_order {
     display: flex;
     flex-direction: column;
@@ -257,7 +354,14 @@ body {
   }
 
   .middle_heading_about {
-    
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 93%;
+    color: #2c2c2c;
+    letter-spacing: -0.03em;
+    margin-bottom: 15px;
   }
 
   .sec_order {
@@ -278,7 +382,7 @@ body {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 142%;
+    line-height: 179%;
     color: #000;
     text-align: center;
   }
@@ -296,6 +400,8 @@ body {
   .main_headline_about {
     background-color: #f7f7f8;
     padding: 109px 251px 109px 251px;
+    background-image: url("images/main_big.png");
+    background-size: cover;
   }
 
   .header_about h2{
@@ -588,6 +694,37 @@ body {
   .tours_work img {
     margin-right: 25px;
   }
+
+  .schedule_desc_about {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #7a7a7a;
+    line-height: 156%;
+    letter-spacing: 0.03em;  
+  }
+
+  .extra_info {
+    text-decoration: underline;
+    text-underline-position: under;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 147%;
+    letter-spacing: 0.02em;
+    color: #5f5f5f;
+  }
+
+  .bottom_info_content {
+    display: flex;
+    align-items: center;
+  }
+
+  .bottom_info {
+    display: none;
+  }
 }
 
 .hamb_icon {
@@ -619,6 +756,8 @@ body {
   justify-content: flex-start;
   align-items: center;
   color: #ffc600;
+  font-size: small;
+  margin-right: 65px;
 }
 
 .dates h3 {
@@ -641,36 +780,6 @@ body {
 .event_details {
   padding: 30px 41.5px 20.92px 41.5px;
   background-color: rgb(247, 247, 248);
-}
-
-.extra_info {
-  text-decoration: underline;
-  text-underline-position: under;
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 12px;
-  line-height: 208%;
-  letter-spacing: 0.02em;
-  color: #5f5f5f;
-}
-
-.schedule_desc_about {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  color: #7a7a7a;
-  line-height: 208%;  
-}
-
-.middle_part_about {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30.5px 20.5px 0 20.5px;
-  text-align: center;
 }
 
 .sessions h3 {
@@ -765,17 +874,6 @@ body {
   margin-bottom: 10px;
 }
 
-.middle_part_about p {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 12px;
-  line-height: 175%;
-  letter-spacing: -0.03em;
-  color: #838383;
-  margin-bottom: 35px;
-}
-
 .partners_second {
   margin-top: 25px;
   display: flex;
@@ -815,10 +913,13 @@ body {
 }
 
 .partners_first img {
-  margin-right: 40px;
+  margin-right: 19px;
 }
 
 .bottom_guides_about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: #414246;
 }
 

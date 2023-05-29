@@ -92,6 +92,21 @@ body {
     text-align: justify;
   }
 
+  .descriptor_about p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 142%;
+    color: #515151;
+    text-align: justify;
+  }
+
+  .descriptor_about {
+    background-color: #fff;
+    padding: 17.1px 14px 16.9px 14px;
+  }
+
   .schedule {
     font-family: 'Gothic A1', sans-serif;
     font-style: normal;
@@ -178,9 +193,118 @@ body {
   .footer_index {
     display: none;
   }
+
+  .main_headline_about {
+    background-image: url("images/phone_back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 9px;
+  }
+
+  .header_about h2{
+    font-weight: 400;
+    line-height: 138%;
+    font-size: 1.5em;
+    color: rgb(244 94 44);
+  }
+
+  .header_about h1 {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 2.5em;
+    background: -webkit-linear-gradient(rgb(244 94 44), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+  }
+
+  .footer_about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: #fff;
+  }
+
+  .logo_info p {
+    font-size: 0.5em;
+    margin-right: 55px;
+  }
+
+  .first_order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 2;
+  }
+
+  .sec_order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    order: 1;
+  }
 }
 
 @media (min-width: 768px) {
+  .first_order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 65px;
+    order: 1;
+  }
+
+  .middle_heading_about {
+    
+  }
+
+  .sec_order {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 65px 65px;
+    order: 2;
+  }
+
+  .descriptor_about {
+    background-color: #fff;
+    padding: 35px 65px 35px 65px;
+  }
+
+  .descriptor_about p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 142%;
+    color: #000;
+    text-align: center;
+  }
+
+  .header_about h1 {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5em;
+    background: -webkit-linear-gradient(rgb(244 94 44), #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 30px;
+  }
+
+  .main_headline_about {
+    background-color: #f7f7f8;
+    padding: 109px 251px 109px 251px;
+  }
+
+  .header_about h2{
+    font-weight: 400;
+    line-height: 138%;
+    font-size: 2.5em;
+    color: rgb(244 94 44);
+  }
+
   .bottom_guides {
     background-color: #fff;
     display: flex;
@@ -402,11 +526,6 @@ body {
     justify-content: flex-start;
   }
 
-  .logo_info p {
-    font-size: 0.5em;
-    margin-right: 55px;
-  }
-
   .menubar li {
     margin-right: 65px;
     font-family: 'Lato', sans-serif;
@@ -461,17 +580,18 @@ body {
     text-decoration: none;
     color: #f07f7e;
   }
+
+  .tours_work {
+    display: flex;
+  }
+
+  .tours_work img {
+    margin-right: 25px;
+  }
 }
 
 .hamb_icon {
   margin-right: 69px;
-}
-
-.header_about h2{
-  font-weight: 400;
-  line-height: 138%;
-  font-size: 1.5em;
-  color: rgb(244 94 44);
 }
 
 .sessions_about {
@@ -494,6 +614,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.logo_info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffc600;
+}
+
 .dates h3 {
   font-family: 'Gothic A1', sans-serif;
   font-style: normal;
@@ -511,21 +638,6 @@ body {
   line-height: 175%;
 }
 
-.header_about h1 {
-  font-weight: bold;
-  font-family: 'Lato', sans-serif;
-  font-size: 2.5em;
-  background: -webkit-linear-gradient(rgb(244 94 44), #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 30px;
-}
-
-.descriptor_about {
-  background-color: #fff;
-  padding: 17.1px 14px 16.9px 14px;
-}
-
 .event_details {
   padding: 30px 41.5px 20.92px 41.5px;
   background-color: rgb(247, 247, 248);
@@ -541,15 +653,6 @@ body {
   line-height: 208%;
   letter-spacing: 0.02em;
   color: #5f5f5f;
-}
-
-.descriptor_about p {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 179%;
-  color: #000;
 }
 
 .schedule_desc_about {
@@ -592,17 +695,6 @@ body {
   font-weight: 900;
   font-size: 16px;
   line-height: 175%;
-}
-
-.middle_heading_about {
-  font-family: 'Lato',sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 140%;
-  color: #2c2c2c;
-  letter-spacing: -0.02em;
-  margin-bottom: 15px;
 }
 
 .bottom_heading {
@@ -753,22 +845,8 @@ body {
   letter-spacing: -0.05em;
 }
 
-.main_headline_about {
-  background-image: url("images/phone_back.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  padding-top: 9px;
-}
-
 .header_about {
   text-align: center;
-}
-
-.logo_info {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  color: #ffc600;
 }
 
 .logo_info_footer {

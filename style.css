@@ -64,7 +64,7 @@ body {
     padding-top: 97.62px;
     padding-bottom: 69.62px;
     padding-left: 18px;
-    padding-right: 18px; 
+    padding-right: 18px;
   }
 
   .header h2 {
@@ -131,9 +131,9 @@ body {
     font-size: 13px;
     color: #868686;
   }
-  
+
   .middle_heading {
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -209,7 +209,7 @@ body {
     padding-top: 9px;
   }
 
-  .header_about h2{
+  .header_about h2 {
     font-weight: 400;
     line-height: 138%;
     font-size: 1.5em;
@@ -255,7 +255,7 @@ body {
   }
 
   .middle_heading_about {
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -282,7 +282,7 @@ body {
     font-weight: 700;
     font-size: 12px;
     color: #7a7a7a;
-    line-height: 208%;  
+    line-height: 208%;
   }
 
   .extra_info {
@@ -328,6 +328,8 @@ body {
   .bottom_info_content {
     padding-top: 20px;
     padding-bottom: 20px;
+    display: flex;
+    align-items: center;
   }
 
   .middle_part_about p {
@@ -354,7 +356,7 @@ body {
   }
 
   .middle_heading_about {
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -404,7 +406,7 @@ body {
     background-size: cover;
   }
 
-  .header_about h2{
+  .header_about h2 {
     font-weight: 400;
     line-height: 138%;
     font-size: 2.5em;
@@ -493,7 +495,7 @@ body {
   }
 
   .middle_heading {
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -572,13 +574,13 @@ body {
     padding-top: 116px;
     padding-bottom: 121px;
     padding-left: 206px;
-    padding-right: 441px; 
+    padding-right: 441px;
   }
 
   .navigation button {
     background-color: #fff;
     border: 5px solid #ec4327;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-weight: 800;
     font-size: 14px;
     line-height: 17px;
@@ -586,7 +588,7 @@ body {
     padding: 12.5px 12px;
   }
 
-  .socials i{
+  .socials i {
     margin-right: 20px;
   }
 
@@ -658,7 +660,7 @@ body {
     padding-bottom: 27px;
     color: #fff;
   }
-  
+
   .footer_index p {
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -702,7 +704,7 @@ body {
     font-size: 16px;
     color: #7a7a7a;
     line-height: 156%;
-    letter-spacing: 0.03em;  
+    letter-spacing: 0.03em;
   }
 
   .extra_info {
@@ -715,11 +717,6 @@ body {
     line-height: 147%;
     letter-spacing: 0.02em;
     color: #5f5f5f;
-  }
-
-  .bottom_info_content {
-    display: flex;
-    align-items: center;
   }
 
   .bottom_info {
@@ -807,7 +804,7 @@ body {
 }
 
 .bottom_heading {
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -957,4 +954,3 @@ body {
   color: #ffc600;
   margin-right: 29.52px;
 }
-

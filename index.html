@@ -7,18 +7,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Gothic+A1:wght@900&family=Inter:wght@300&family=Lato&family=Poppins:wght@300&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <script src="https://kit.fontawesome.com/236af2913f.js" crossorigin="anonymous"></script>
+    <script src="javascript/index.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Tours and Travel</title>
 </head>
 <body>
     <div class="main">
+        <section class="socials">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <p>English</p>
+            <p>My Page</p>
+            <p>Logout</p>
+        </section>
         <section class="headline">
             <nav class="navigation">
-                <img class="hamb_icon" src="images/union.svg" alt="">
+                <nav class="toggle_menu">
+                    <img class="hamburger_icon" src="images/union.svg" alt="">
+                </nav>
                 <div class="logo_info">
-                    <img src="images/icon_tours.png" height="51px" alt="">
+                    <a href="index.html"><img src="images/icon_tours.png" height="51px" alt=""></a>
                     <p><b>Thee Travels</b> <br/><small>Guaranteed Satisfaction</small></p>
                 </div>
+                <div class="main_menu">
+                    <img class="close_icon" src="images/close.svg" alt="">
+                    <ul class="menubar">
+                        <li><a href="about.html">About</a></li>
+                        <hr>
+                        <li>Program</li>
+                        <hr>
+                        <li>Join</li>
+                        <hr>
+                        <li>Sponsor</li>
+                        <hr>
+                        <li>News</li>
+                        <hr>
+                    </ul>
+                </div>
+                <button>Registration</button>
             </nav>
             <div class="main_headline">
                 <section class="header">
@@ -36,31 +62,34 @@
         <section class="middle_part">
             <h2 class="middle_heading">Main Program</h2>
             <hr/>
-            <div class="sessions">
-                <i class="fa-solid fa-person-hiking fa-xl"></i>
-                <h3>Hiking</h3>
-                <p>Organize guided hikes and nature walks in scenic locations, national parks, or mountains. Provide knowledgeable guides who can share information about local flora, fauna, and geographical features.</p>
+            <div class="session_containers">
+                <div class="sessions">
+                    <i class="fa-solid fa-person-hiking fa-xl"></i>
+                    <h3>Hiking</h3>
+                    <p>Organize guided hikes and nature walks in scenic locations, national parks, or mountains. Provide knowledgeable guides who can share information about local flora, fauna, and geographical features.</p>
+                </div>
+                <div class="sessions">
+                    <i class="fa-solid fa-hippo fa-xl"></i>
+                    <h3>Wildlife Safari</h3>
+                    <p>Offer wildlife safaris in nature reserves or national parks, allowing participants to observe and photograph various animal species in their natural habitat.</p>
+                </div>
+                <div class="sessions">
+                    <i class="fa-solid fa-person-biking fa-xl"></i>
+                    <h3>Scenic Cycling Tours</h3>
+                    <p>Arrange cycling tours through picturesque landscapes, coastal routes, or charming countryside, offering a healthy and eco-friendly way to explore the surroundings.</p>
+                </div>
+                <div class="sessions">
+                    <i class="fa-solid fa-plane-departure fa-xl"></i>
+                    <h3>Water Sports</h3>
+                    <p>Provide opportunities for water sports such as kayaking, canoeing, paddle boarding, or rafting in rivers, lakes, or coastal areas with suitable water conditions.</p>
+                </div>
+                <div class="sessions">
+                    <i class="fa-solid fa-horse fa-xl"></i>
+                    <h3>Horseback Riding</h3>
+                    <p>Organize horseback riding excursions through scenic trails or countryside, giving participants a chance to connect with nature while enjoying the companionship of horses.</p>
+                </div>
             </div>
-            <div class="sessions">
-                <i class="fa-solid fa-hippo fa-xl"></i>
-                <h3>Wildlife Safari</h3>
-                <p>Offer wildlife safaris in nature reserves or national parks, allowing participants to observe and photograph various animal species in their natural habitat.</p>
-            </div>
-            <div class="sessions">
-                <i class="fa-solid fa-person-biking fa-xl"></i>
-                <h3>Scenic Cycling Tours</h3>
-                <p>Arrange cycling tours through picturesque landscapes, coastal routes, or charming countryside, offering a healthy and eco-friendly way to explore the surroundings.</p>
-            </div>
-            <div class="sessions">
-                <i class="fa-solid fa-plane-departure fa-xl"></i>
-                <h3>Water Sports</h3>
-                <p>Provide opportunities for water sports such as kayaking, canoeing, paddle boarding, or rafting in rivers, lakes, or coastal areas with suitable water conditions.</p>
-            </div>
-            <div class="sessions">
-                <i class="fa-solid fa-horse fa-xl"></i>
-                <h3>Horseback Riding</h3>
-                <p>Organize horseback riding excursions through scenic trails or countryside, giving participants a chance to connect with nature while enjoying the companionship of horses.</p>
-            </div>
+            <p class="more_info">SEE THE WHOLE PROGRAM</p>
             <button>Subscribe to Our Activities</button>
         </section>
 
@@ -69,33 +98,77 @@
                 <h2 class="bottom_heading">Invited Guests</h2>
                 <hr/>
             </div>
-            <div class="speakers">
-                <div class="feature_images">
-                    <img src="images/speaker_01.png" alt="">
+            <div class="grid_style">
+                <div class="speakers">
+                    <div class="feature_images">
+                        <img src="images/speaker_01.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h2>Yohai Benkler</h2>
+                        <h3>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h3>
+                        <p>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                    </div>
                 </div>
-                <div class="desc">
-                    <h2>Yohai Benkler</h2>
-                    <h3>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h3>
-                    <p>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                <div class="speakers">
+                    <div class="feature_images">
+                        <img src="images/speaker_01.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h2>Yohai Benkler</h2>
+                        <h3>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h3>
+                        <p>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                    </div>
+                </div>
+                <div class="speakers">
+                    <div class="feature_images">
+                        <img src="images/speaker_01.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h2>Yohai Benkler</h2>
+                        <h3>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h3>
+                        <p>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                    </div>
+                </div>
+                <div class="speakers">
+                    <div class="feature_images">
+                        <img src="images/speaker_01.png" alt="">
+                    </div>
+                    <div class="desc">
+                        <h2>Yohai Benkler</h2>
+                        <h3>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h3>
+                        <p>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
+                    </div>
                 </div>
             </div>
-            <div class="speakers">
-                <div class="feature_images">
-                    <img src="images/speaker_01.png" alt="">
-                </div>
-                <div class="desc">
-                    <h2>Yohai Benkler</h2>
-                    <h3>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</h3>
-                    <p>Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School</p>
-                </div>
-            </div>
-        </section>
-        <div class="bottom_guides">
             <button>
                 More
                 <img src="images/arrow_down 1.svg" alt="">
             </button>
-        </div>
+        </section>
+
+        <section class="bottom_guides_index">
+            <div class="guidance">
+                <h2 class="bottom_heading">Partner</h2>
+                <hr/>
+            </div>
+            <div class="speakers_about">
+                <div class="partners_first_index">
+                    <img src="images/mozilla.svg" alt="">
+                    <img src="images/googlekorea.svg" alt="">
+                    <img src="images/naver.svg" alt="">
+                    <img src="images/daumkakaologo.svg" alt="">
+                    <img src="images/airbnb.svg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="footer_index">
+            <div class="logo_info_footer">
+                <img src="images/icon_tours.png" height="51px" alt="">
+                <p><b>Thee Travels</b> <br/><small>Guaranteed Satisfaction</small></p>
+            </div>
+            <p>Terms and Conditions for Application apply</p>
+        </section>
     </div>
 </body>
 </html>

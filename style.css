@@ -15,6 +15,17 @@ body {
 }
 
 @media (max-width: 768px) {
+  .bottom_heading {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #ff4f38;
+    opacity: 100%;
+    margin-bottom: 15px;
+  }
+
   .middle_part_about {
     background-color: #fff;
     display: flex;
@@ -344,9 +355,79 @@ body {
   .bottom_info_content {
     display: none;
   }
+
+  .desc h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000;
+    margin-bottom: 6.4px;
+  }
+
+  .desc h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 10px;
+    line-height: 149%;
+    color: #f78c89;
+    margin-bottom: 19.21px;
+  }
+
+  .desc p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    color: #000;
+    letter-spacing: -0.06em;
+  }
 }
 
 @media (min-width: 768px) {
+  .bottom_heading {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 93%;
+    color: #ff4f38;
+    margin-bottom: 15px;
+  }
+
+  .desc h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    margin-bottom: 6.4px;
+    letter-spacing: -0.02;
+  }
+
+  .desc h3 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    color: #f78c89;
+    margin-bottom: 19.21px;
+  }
+
+  .desc p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: justify;
+    line-height: 171%;
+    color: #000;
+    letter-spacing: -0.05em;
+  }
+
   .menubar hr {
     display: none;
   }
@@ -466,7 +547,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 10px 30.5px 10px;
+    padding: 0 204px 74px 205px;
   }
 
   .bottom_guides button {
@@ -539,7 +620,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30.5px 10px 75px 10px;
+    padding: 30.5px 204px 75px 205px;
   }
 
   .middle_heading {
@@ -857,47 +938,8 @@ body {
   line-height: 175%;
 }
 
-.bottom_heading {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 140%;
-  color: #ff4f38;
-  opacity: 100%;
-  margin-bottom: 15px;
-}
-
 .desc {
   margin-left: 14px;
-}
-
-.desc h2 {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  color: #000;
-  margin-bottom: 6.4px;
-}
-
-.desc h3 {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-size: 10px;
-  line-height: 149%;
-  color: #f78c89;
-  margin-bottom: 19.21px;
-}
-
-.desc p {
-  font-family: 'Lato', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 9px;
-  color: #000;
-  letter-spacing: -0.06em;
 }
 
 .guidance hr {

@@ -79,6 +79,7 @@ window.addEventListener('DOMContentLoaded', () => {
           const imageDiv = document.createElement('div');
           imageDiv.classList.add('feature_images');
           const textDiv = document.createElement('div');
+          const underlineText = document.createElement('hr');
           textDiv.classList.add('desc');
           const speakerName = document.createElement('h2');
           speakerName.innerHTML = guests.speakerName;
@@ -88,6 +89,7 @@ window.addEventListener('DOMContentLoaded', () => {
           speakerInfo.innerHTML = guests.speakerInfo;
           textDiv.appendChild(speakerName);
           textDiv.appendChild(speakerTitle);
+          textDiv.appendChild(underlineText);
           textDiv.appendChild(speakerInfo);
           const sourcePic = document.createElement('img');
           sourcePic.setAttribute('src', guests.img);
@@ -102,6 +104,7 @@ window.addEventListener('DOMContentLoaded', () => {
         const imageDiv = document.createElement('div');
         imageDiv.classList.add('feature_images');
         const textDiv = document.createElement('div');
+        const underlineText = document.createElement('hr');
         textDiv.classList.add('desc');
         const speakerName = document.createElement('h2');
         speakerName.innerHTML = guests.speakerName;
@@ -111,6 +114,7 @@ window.addEventListener('DOMContentLoaded', () => {
         speakerInfo.innerHTML = guests.speakerInfo;
         textDiv.appendChild(speakerName);
         textDiv.appendChild(speakerTitle);
+        textDiv.appendChild(underlineText);
         textDiv.appendChild(speakerInfo);
         const sourcePic = document.createElement('img');
         sourcePic.setAttribute('src', guests.img);
@@ -142,6 +146,7 @@ window.addEventListener('DOMContentLoaded', () => {
         imageDiv.classList.add('feature_images');
         const textDiv = document.createElement('div');
         textDiv.classList.add('desc');
+        const underlineText = document.createElement('hr');
         const speakerName = document.createElement('h2');
         speakerName.innerHTML = featuredSpeakers[i].speakerName;
         const speakerTitle = document.createElement('h3');
@@ -150,6 +155,7 @@ window.addEventListener('DOMContentLoaded', () => {
         speakerInfo.innerHTML = featuredSpeakers[i].speakerInfo;
         textDiv.appendChild(speakerName);
         textDiv.appendChild(speakerTitle);
+        textDiv.appendChild(underlineText);
         textDiv.appendChild(speakerInfo);
         const sourcePic = document.createElement('img');
         sourcePic.setAttribute('src', featuredSpeakers[i].img);

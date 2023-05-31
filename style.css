@@ -135,7 +135,7 @@ body {
   }
 
   .main_headline {
-    background-image: url("images/phone_back.jpg");
+    background-image: url("images/main_big.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 97.62px;
@@ -246,7 +246,6 @@ body {
 
   .sessions p {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
     font-size: 10px;
     line-height: 208%;
     font-style: normal;
@@ -281,7 +280,7 @@ body {
   }
 
   .main_headline_about {
-    background-image: url("images/phone_back.jpg");
+    background-image: url("images/main_big.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 9px;
@@ -677,7 +676,6 @@ body {
 
   .sessions p {
     font-family: 'Lato', sans-serif;
-    font-weight: 700;
     font-size: 12px;
     line-height: 208%;
     font-style: normal;

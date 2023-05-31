@@ -20,21 +20,22 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio: Capstone Project <a name="about-project"></a>
+# 📖 Capstone Project <a name="about-project"></a>
 
-**Portfolio: Initial Mobile Setup** is a mobile setup site that showcases the services and products I can offer to clients. The design is initially setup to be viewed on mobile devices and is optimized for mobile users.
+**Capstone Tours and Travel Website** is a comprehensive online platform designed to fulfill the learning objectives of users interested in exploring the world of travel and tourism. The website offers a range of features and resources to enhance knowledge and facilitate interactive learning experiences. It is a partial fulfillment of module one requirements at MICROVERSE. 
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-The project was mainly built with HTML and CSS.
+The project was mainly built with HTML, CSS, and Javascript.
 
 <details>
   <summary>Client</summary>
   <ul>
     <li>HTML</li>
     <li>CSS</li>
+    <li>Javascript</li>
   </ul>
 </details>
 
@@ -43,6 +44,7 @@ The project was mainly built with HTML and CSS.
   <ul>
     <li>Webhint</li>
     <li>Stylelint</li>
+    <li>Eslint</li>
   </ul>
 </details>
 
@@ -51,6 +53,7 @@ The project was mainly built with HTML and CSS.
   <ul>
     <li>Workflows</li>
     <li>Troubleshooting</li>
+    <li>Github Pages</li>
   </ul>
 </details>
 
@@ -61,6 +64,8 @@ The project was mainly built with HTML and CSS.
 - **[Web Design]**
 - **[Linter Functionalities]**
 - **[Github Actions]**
+- **[Github Pages]**
+- **[DOM manipulation using Javascript]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LIVE DEMO -->
@@ -68,7 +73,7 @@ The project was mainly built with HTML and CSS.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- The link to my online portfolio [Live Demo Link](https://kanyorok.github.io/Portfolio_Setup/)
+- The link to my online portfolio [Live Demo Link](https://kanyorok.github.io/CaptstoneProject/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -77,13 +82,13 @@ The project was mainly built with HTML and CSS.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-You need applications like Google Chrome to execute the project. To get a local copy up and running, follow these steps.
+You need a web browser applications like Google Chrome to execute the project. To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 In order to run this project you need:
 ```sh
- You need to have packages like:
- - NPM
+ You need to have installed this packages:
+ - NPM (eslint, webhint, and stylelint)
  - A browser (most preferrably Google Chrome or Safari)
  - A code editor (Most preferrably Visual Studio)
  - Git version control
@@ -95,8 +100,8 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 ```sh
   - cd my-folder
-  - git clone https://github.com/Kanyorok/Portfolio_Setup.git
-  - cd Portfolio_Setup
+  - git clone https://github.com/Kanyorok/CaptstoneProject.git
+  - cd CaptstoneProject
 ```
 ### Install
 
@@ -112,7 +117,7 @@ Install this project with:
 To run the project, execute the following command:
 
 ```sh
-  Go live from the Visual studio IDE. 
+  'Go live' extension from the Visual studio IDE. 
 ```
 
 ### Run tests
@@ -151,7 +156,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Kanyorok/CaptstoneProject/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,13 +172,9 @@ If you like this project, please leave a comment at the reply section about ways
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+The credit for the website goes to [Cindy Shin in Behance](https://www.behance.net/adagio07)  who is the original author of the design used in this project.
+
 I would like to thank Microverse Team for support me with templates to complete the job. I take the chance to also thank the code reviewers for being helping complete the project.
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 

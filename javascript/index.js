@@ -53,7 +53,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const closeBtn = document.querySelector('.close_icon');
   const hamburger = document.querySelector('.hamburger_icon');
   const toggle = document.querySelector('.main_menu');
-  const moreInfo = document.querySelector('.moreInfo')
+  const moreInfo = document.querySelector('.moreInfo');
 
   function toggleMenu() {
     window.addEventListener('click', (e) => {
@@ -70,10 +70,33 @@ window.addEventListener('DOMContentLoaded', () => {
 
   const dynamicFeaturedSpeakersSections = () => {
     const divCard = featuredSpeakers.map((guests) => {
-    let winSize = window.innerWidth;
+      const winSize = window.innerWidth;
 
-    if(winSize < 768 ) {
-      if (guests.id <= 2){
+      if (winSize < 768) {
+        if (guests.id <= 2) {
+          const speakerSection = document.createElement('div');
+          speakerSection.classList.add('speakers');
+          const imageDiv = document.createElement('div');
+          imageDiv.classList.add('feature_images');
+          const textDiv = document.createElement('div');
+          textDiv.classList.add('desc');
+          const speakerName = document.createElement('h2');
+          speakerName.innerHTML = guests.speakerName;
+          const speakerTitle = document.createElement('h3');
+          speakerTitle.innerHTML = guests.speakerTitle;
+          const speakerInfo = document.createElement('p');
+          speakerInfo.innerHTML = guests.speakerInfo;
+          textDiv.appendChild(speakerName);
+          textDiv.appendChild(speakerTitle);
+          textDiv.appendChild(speakerInfo);
+          const sourcePic = document.createElement('img');
+          sourcePic.setAttribute('src', guests.img);
+          imageDiv.appendChild(sourcePic);
+          speakerSection.appendChild(imageDiv);
+          speakerSection.appendChild(textDiv);
+          document.querySelector('.grid_style').appendChild(speakerSection);
+        }
+      } else {
         const speakerSection = document.createElement('div');
         speakerSection.classList.add('speakers');
         const imageDiv = document.createElement('div');
@@ -96,46 +119,23 @@ window.addEventListener('DOMContentLoaded', () => {
         speakerSection.appendChild(textDiv);
         document.querySelector('.grid_style').appendChild(speakerSection);
       }
-    } else {
-      const speakerSection = document.createElement('div');
-      speakerSection.classList.add('speakers');
-      const imageDiv = document.createElement('div');
-      imageDiv.classList.add('feature_images');
-      const textDiv = document.createElement('div');
-      textDiv.classList.add('desc');
-      const speakerName = document.createElement('h2');
-      speakerName.innerHTML = guests.speakerName;
-      const speakerTitle = document.createElement('h3');
-      speakerTitle.innerHTML = guests.speakerTitle;
-      const speakerInfo = document.createElement('p');
-      speakerInfo.innerHTML = guests.speakerInfo;
-      textDiv.appendChild(speakerName);
-      textDiv.appendChild(speakerTitle);
-      textDiv.appendChild(speakerInfo);
-      const sourcePic = document.createElement('img');
-      sourcePic.setAttribute('src', guests.img);
-      imageDiv.appendChild(sourcePic);
-      speakerSection.appendChild(imageDiv);
-      speakerSection.appendChild(textDiv);
-      document.querySelector('.grid_style').appendChild(speakerSection);
-    }
       return null;
     });
     return divCard;
   };
 
-  function refreshPage(){
-    let winSize = window.innerWidth;
-    if (winSize >= 768){
+  function refreshPage() {
+    const winSize = window.innerWidth;
+    if (winSize >= 768) {
       window.location.reload();
-    } else if(winSize< 768){
+    } else if (winSize < 768) {
       window.location.reload();
     }
   }
 
-  function moreButton(){
-    for (let i=0; i< featuredSpeakers.length; i++){
-      if (featuredSpeakers[i].id > 2){
+  function moreButton() {
+    for (let i = 0; i < featuredSpeakers.length; i += 1) {
+      if (featuredSpeakers[i].id > 2) {
         const speakerSection = document.createElement('div');
         speakerSection.classList.add('speakers');
         const imageDiv = document.createElement('div');
@@ -165,6 +165,6 @@ window.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('resize', refreshPage);
   closeBtn.addEventListener('click', toggleMenu);
   hamburger.addEventListener('click', toggleMenu);
-  moreInfo.addEventListener('click', moreButton)
+  moreInfo.addEventListener('click', moreButton);
   dynamicFeaturedSpeakersSections();
 });

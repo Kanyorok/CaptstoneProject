@@ -128,15 +128,6 @@ window.addEventListener('DOMContentLoaded', () => {
     return divCard;
   };
 
-  function refreshPage() {
-    const winSize = window.innerWidth;
-    if (winSize >= 768) {
-      window.location.reload();
-    } else if (winSize < 768) {
-      window.location.reload();
-    }
-  }
-
   function moreButton() {
     for (let i = 0; i < featuredSpeakers.length; i += 1) {
       if (featuredSpeakers[i].id > 2) {
@@ -168,7 +159,6 @@ window.addEventListener('DOMContentLoaded', () => {
     moreInfo.style.display = 'none';
   }
 
-  window.addEventListener('resize', refreshPage);
   closeBtn.addEventListener('click', toggleMenu);
   hamburger.addEventListener('click', toggleMenu);
   moreInfo.addEventListener('click', moreButton);

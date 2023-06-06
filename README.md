@@ -73,7 +73,9 @@ The project was mainly built with HTML, CSS, and Javascript.
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- The link to my online portfolio [Live Demo Link](https://kanyorok.github.io/CaptstoneProject/)
+- The link to the capstone project [Live Demo Link](https://kanyorok.github.io/CaptstoneProject/)
+
+- The link to the video presentation capstone project [Video Presentation Link](https://drive.google.com/file/d/17fhB4GtBFBDah9xiSbD1E72pBVJrPQ83/view?usp=sharing)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
